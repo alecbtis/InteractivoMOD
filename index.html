@@ -424,7 +424,7 @@
             alert("Incorrecto. La respuesta correcta es: Unión Soviética.");
         }
 
-           if(pregunta10 = prompt("¿Qué país perdió muchas de sus colonias después de la guerra?")){
+        if(pregunta10 = prompt("¿Qué país perdió muchas de sus colonias después de la guerra?")){
 
             pregunta10 = pregunta10.trim();
             
@@ -434,6 +434,30 @@
             puntaje += 1;
         } else {
             alert("Incorrecto. La respuesta correcta es: Reino Unido.");
+        }
+
+        if(pregunta11 = prompt("¿Qué país fue el ultimo en rendirse en la guerra?")){
+
+            pregunta11 = pregunta11.trim();
+            
+        }
+        if (pregunta11.toLowerCase() === "japon") {
+            alert("¡Correcto! El imperio japones fue el ultimo en rendirse.");
+            puntaje += 1;
+        } else {
+            alert("Incorrecto. La respuesta correcta es: Japón.");
+        }
+
+        if(pregunta12 = prompt("¿Qué país sufrio el ataque al Pearl Harbor?")){
+
+            pregunta12 = pregunta12.trim();
+            
+        }
+        if (pregunta12.toLowerCase() === "estados unidos") {
+            alert("¡Correcto! Los Estados Unidos entraron a la guerra despues de eso.");
+            puntaje += 1;
+        } else {
+            alert("Incorrecto. La respuesta correcta es: Estados Unidos.");
         }
 
         if(puntaje >= 1) {
