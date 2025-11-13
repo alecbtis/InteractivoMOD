@@ -460,6 +460,18 @@
             alert("Incorrecto. La respuesta correcta es: Estados Unidos.");
         }
 
+if(pregunta13 = prompt("¿Qué país el tiraron 2 petardos nucleares?")){
+
+            pregunta13 = pregunta13.trim();
+            
+        }
+        if (pregunta13.toLowerCase() === "Japon") {
+            alert("¡Correcto! Japon le explotaron 2 tanques de gas.");
+            puntaje += 1;
+        } else {
+            alert("Incorrecto. La respuesta correcta es: Estados Unidos.");
+        }
+
         if(puntaje >= 1) {
             alert("¡Felicidades! Has respondido correctamente todas las preguntas.");
             //document.getElementById("fiesta").setAttribute("class", "visible");
